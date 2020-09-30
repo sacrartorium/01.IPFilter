@@ -1,7 +1,7 @@
 language: cpp
 env:
   global:
-    - NAMEP=ip_filter-$TRAVIS_BUILD_NUMBER.deb
+    - NAMEP=ip_filter-$TRAVIS_BUILD_NUMBER-Linux.deb
 before_script:
 - echo "deb http://archive.ubuntu.com/ubuntu xenial main universe" | sudo tee -a /etc/apt/sources.list
 - sudo apt-get update -qq
